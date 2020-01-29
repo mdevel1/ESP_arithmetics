@@ -14,3 +14,15 @@ the original Arduino doesn't do.
 
 For easy compilation with GCC outside of the IDE you can use the
 directory 'c' with a symlink inside it to the Arduino sketch file.
+
+The output of the program:
+
+~~~~
+    int sum: 3
+   int diff: -1
+ float1 sum: 3.000000
+float1 diff: -1.000000
+ float2 sum: 3.000000
+float2 diff: 4294967295.000000
+float3 diff: 4294967296.000000
+~~~~
